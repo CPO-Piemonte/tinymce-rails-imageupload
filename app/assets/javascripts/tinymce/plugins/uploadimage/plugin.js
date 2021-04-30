@@ -302,7 +302,7 @@
 
       if (editor.getParam('uploadimage', true)) {
         // Add a button that opens a window
-        editor.addButton('uploadimage', {
+        editor.ui.registry.addButton('uploadimage', {
           tooltip: ed.translate('Insert an image from your computer'),
           icon: 'image',
           onclick: showDialog
